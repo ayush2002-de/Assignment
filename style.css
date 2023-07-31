@@ -2,15 +2,15 @@
   box-sizing: border-box;
   font-family: 'Noto Sans', sans-serif;
   max-width: 100%;
-	margin: 0;
-	padding: 0;   
+  margin: 0;
+  padding: 0;   
 }
 .account-creation {
   font-size: 2vw;     
 }    
 .body-container {
   background-color: #6839b7;
-	height: 100%;
+  height: 100%;
 }
 .email {
   border: none;
@@ -28,173 +28,173 @@
 .form-conatainer {
   align-items: center;
   border-radius: 0.5rem;
-	display: flex;
-	justify-items: center;
-	flex-direction: column;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
 }
 .input-section{
-	padding: 1vh ;
+  padding: 1vh ;
 }
 .new-account {
-	text-decoration: none;
+  text-decoration: none;
 }
 .password {
-	border:none;
-	background-color: rgb(232, 240, 254);
-	font-size: 3vh;
-	padding-left: 2vh;   
+  background-color: rgb(232, 240, 254);
+  font-size: 3vh;
+  padding-left: 2vh;   
+  border:none;
 }
 .password-vis {
   align-items: center;
-	border-bottom: 0.1rem solid rgb(63, 60, 60);
-	border-radius: 0.3rem;
-	background-color: rgb(232, 240, 254);
+  border-radius: 0.3rem;
+  background-color: rgb(232, 240, 254);
+  border-bottom: 0.1rem solid rgb(63, 60, 60);
   display: flex;
-	padding: 0.4rem;	
+  padding: 0.4rem;	
 }
 .submit {
-	font-size: 2vh;
-	margin-top: 5vh;
-	padding:1vh 5vh ;
+  font-size: 2vh;
+  margin-top: 5vh;
+  padding:1vh 5vh;
 }
-@media  screen and (min-width:821px) {
+@media screen and (min-width:821px) {
   .account-creation {
-		position: fixed;
+    position: fixed;
     right: 1vh;
-		top: 1vh;	
-	}
-	.application {
-		padding-top: 2vw;
-	}
-	.application-descrp {
-		margin-bottom: 2vw;
-	}
+    top: 1vh;
+  }
+  .application {
+    padding-top: 2vw;
+  }
+  .application-descrp {
+    margin-bottom: 2vw;
+  }
   .application-line {
-		font-size: 5vw;
-	}
-	.application-name {
-		height: 7vw;
-	}
-	.body-container {
-		display: flex;
-		justify-content: center;
-	}
+    font-size: 5vw;
+  }
+  .application-name {
+    height: 7vw;
+  }
+  .body-container {
+    display: flex;
+    justify-content: center;
+  }
   .company-name {
-		font-size: 3vw;
-	}
+    font-size: 3vw;
+  }
   .email {  
-		width: 30vw;
-	}
+    width: 30vw;
+  }
   .footer-container {
     bottom: 1vh;
-		color: black;
-		font-size: 2vh;
-		position: fixed;	
-	}
-	.forget {	
+    color: black;
+    font-size: 2vh;
+    position: fixed;	
+  }
+  .forget {	
     font-size: 1.5vw;
-		left: 7vw;
-	}
-	.head-container {
+    left: 7vw;
+  }
+  .head-container {
     color: whitesmoke;
-		display: flex;	
+    display: flex;	
     flex-direction: column;
-		height: 100vh;
-		padding: 5vw;
-		width: 40vw;
-	}
-	.main-container {
+    height: 100vh;
+    padding: 5vw;
+    width: 40vw;
+  }
+  .main-container {
     align-items: center;
-		background-color: azure;
+    background-color: azure;
     display: flex;
     flex-direction: row;
-		justify-content: center;
+    justify-content: center;
     height: 100vh;
-		width: 60vw;
-	}
+    width: 60vw;
+  }
   .material-symbols-outlined {
     left: 5vw;
     position: relative;
 }
   .page-head {
-		margin-bottom: 4vw;
-	}
-	.password{  
-		width: 20vw;  
-	}
-	.task-desc {
-		display: flex;
+    margin-bottom: 4vw;
+  }
+  .password{  
+    width: 20vw;  
+  }
+  .task-desc {
+    display: flex;
     font-size: 5vw;
-		justify-content: center;
-		margin-bottom: 5vh;
-	}
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
 }
 @media  screen and (max-width: 820px) {
   .application {
-		display: flex;
-		justify-content: center;
-		font-size: 6vw;		
-	}
+    display: flex;
+    justify-content: center;
+    font-size: 6vw;		
+  }
   .application-descrp, .account-fault {
-		font-size: 5vw;
-		padding: 1vw 2vw;
-	}
-	.application-name {
-		display: flex;
-		justify-content: center;
-		font-size: 9vw;
+    font-size: 5vw;
+    padding: 1vw 2vw;
+  }
+  .application-name {
+    display: flex;
+    justify-content: center;
+    font-size: 9vw;
     height: 10vw;
-	}
+  }
   .company-name {
-		display: flex;
-		justify-content: center;
-		font-size: 5.5vw;
-	}
+    display: flex;
+    justify-content: center;
+    font-size: 5.5vw;
+  }
   .email {
     width: 25rem;
-	}
+  }
   .footer-container {
-		color: whitesmoke;
+    color: whitesmoke;
     font-size: 3vw;
-	}
-	.forget {
+  }
+  .forget {
     font-size: 2.5vw;
     left: 5em;
 }
   .form-conatainer {
-		background-color: whitesmoke;	
+    background-color: whitesmoke;	
     padding: 1vh 4vh;	
-	}
-	.head-container {
+  }
+  .head-container {
     align-items: center;
-		color: whitesmoke;
-		display: flex;
-		flex-direction: column;
-		margin-left: 2vw;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
     margin-right: 2vw;	
-	}
+  }
   .line {
-		display: none;
-	}	
+    display: none;
+  }
   .material-symbols-outlined {
-		position: relative;
-		left: 9.8vw;
-	}
-	.page-description {
-		display: flex;
-		flex-direction: column;
-		padding: 3vw;
+    position: relative;
+    left: 9.8vw;
+  }
+  .page-description {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
     text-align: center;
-	}
-	.password {
-		width: 35vw;      
-	}
+  }
+  .password {
+    width: 35vw;      
+  }
   .task-desc {
     display: flex;
-		font-size: 3vh;
-		justify-content: center;
-		margin-top: 3vh;
-	}
+    font-size: 3vh;
+    justify-content: center;
+    margin-top: 3vh;
+  }
   .section-container {
     padding: 1vw 17vw;
   }
@@ -203,17 +203,17 @@
   .account-creation {
     font-size: 3vw;
     margin-bottom: 1vh;
-}
+  }
   .application-descrp, .account-fault {
-		font-size: 6vw;
-	}
+    font-size: 6vw;
+  }
   .application-name {
-		font-size: 10vw;
+    font-size: 10vw;
     margin-bottom: 2vh;
-	}
+  }
   .company-name {
-		font-size: 5.5vw;
-	}
+    font-size: 5.5vw;
+  }
   .head-container{
     margin: 1vh 3vh;
   }
