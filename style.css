@@ -13,16 +13,16 @@
   background-color: #6839b7;
 	height: 100%;
 }
-.email{
+.email {
   border: none;
-  border-bottom: 1px solid rgb(63, 60, 60);
-  border-radius: 2px;
+  border-bottom: 0.1rem solid rgb(63, 60, 60);
+  border-radius: 0.2rem;
   font-size: 3vh;
   height: 6vh;
   margin-bottom: 1vh;
   padding-left: 2vh;
 }
-.forget{
+.forget {
   text-decoration: none;
   position: relative;
 }
@@ -47,8 +47,8 @@
 }
 .password-vis {
   align-items: center;
-	border-bottom: 1px solid rgb(63, 60, 60);
-	border-radius: 2px;
+	border-bottom: 0.1rem solid rgb(63, 60, 60);
+	border-radius: 0.2rem;
 	background-color: rgb(232, 240, 254);
   display: flex;
 	padding: 0.4rem;	
@@ -64,23 +64,23 @@
     right: 1vh;
 		top: 1vh;	
 	}
-	.application{
+	.application {
 		padding-top: 2vw;
 	}
-	.application-descrp{
+	.application-descrp {
 		margin-bottom: 2vw;
 	}
-  .application-line{
+  .application-line {
 		font-size: 5vw;
 	}
-	.application-name{
+	.application-name {
 		height: 7vw;
 	}
 	.body-container {
 		display: flex;
 		justify-content: center;
 	}
-  .company-name{
+  .company-name {
 		font-size: 3vw;
 	}
   .email {  
@@ -117,7 +117,7 @@
     left: 5vw;
     position: relative;
 }
-  .page-head{
+  .page-head {
 		margin-bottom: 4vw;
 	}
 	.password{  
