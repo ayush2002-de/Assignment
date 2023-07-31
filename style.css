@@ -5,10 +5,10 @@
 	margin: 0;
 	padding: 0;   
 }
- .account-creation {
-		font-size: 2vh;
-		margin-bottom: 3vh;       
-	}
+.account-creation {
+  font-size: 2vh;
+  margin-bottom: 3vh;       
+}    
 .body-container {
   background-color: #6839b7;
 	height: 100%;
